@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <City ID="1" CITY_NAME="Antalya"/>
+    <City ID="2" CITY_NAME="Ankara"/>
+
+    <Car
+            ID="1"
+            BRAND="Fiat"
+            MODEL="Doblo"
+            FUEL_TYPE="Gasoline"
+            CAR_CLASS="Family"
+            AC="false"
+    />
+    <Car
+            ID="2"
+            BRAND="Tesla"
+            MODEL="Model20"
+            FUEL_TYPE="Electricity"
+            CAR_CLASS="Sport"
+            AC="true"
+    />
+
+    <Driver
+            ID="1"
+            NAME="Görkem"
+            SURNAME="Uysal"
+            EMAIL="gorkem@gmail.com"
+            PHONE_NUMBER="5550505"
+            TC_NUMBER="12345678901"
+            ADDRESS="Earth"
+            GENDER="Male"
+            CITY_ID="1"
+            CAR_ID="2"
+    />
+    <Driver
+            ID="2"
+            NAME="Mustafa Görkem"
+            SURNAME="Uysal"
+            EMAIL="gorkem@gorkem.com"
+            PHONE_NUMBER="4440404"
+            TC_NUMBER="12345678901"
+            ADDRESS="Moon"
+            GENDER="Male"
+            CITY_ID="2"
+            CAR_ID="1"
+    />
+
+    <Trip
+            ID="1"
+            DEPARTURE="Ankara"
+            ARRIVAL="Trabzon"
+            DATE="2020-06-01"
+            TIME="12:00:00"
+            PRICE="110.0"
+            SEAT_NUMBER="2"
+            DISCOUNT="20.0"
+            TOTAL_DISTANCE="250"
+            TOTAL_DURATION="6"
+            ACTIVE="true"
+            BOOKED="false"
+            DRIVER_ID="1"
+    />
+    <Trip
+            ID="2"
+            DEPARTURE="Antalya"
+            ARRIVAL="Eskisehir"
+            DATE="2020-07-07"
+            TIME="11:00:00"
+            PRICE="95.0"
+            SEAT_NUMBER="4"
+            DISCOUNT="15.0"
+            TOTAL_DISTANCE="450"
+            TOTAL_DURATION="8"
+            ACTIVE="true"
+            BOOKED="false"
+            DRIVER_ID="1"
+    />
+</dataset>
